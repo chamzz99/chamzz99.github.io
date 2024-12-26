@@ -60,5 +60,9 @@
       
     </div>
 	</main>
+<script>
+    let dataType = JSON.parse(document.getElementById('intro typewrite').getAttribute('data-type'));
+    document.getElementById('intro typewrite').innerText = dataType[0].replace("I am", "I'm");
+  </script>
 </body>
 </html>
